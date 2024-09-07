@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Handjet", sans-serif; /* Define a fonte padrão */
+    background-color: #000000; /* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: space-between; /* Espaça o conteúdo e o rodapé */
+    min-height: 100vh; /* Garante que o corpo ocupe pelo menos a altura total da viewport */
+    margin: 0;
+    padding: 0;
+    gap: 0.80rem;
+}
+
+/* Estiliza os títulos h1 */
+div {
+    border: 0.0625rem solid #00FF00; /* Convertido de 1px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem; /* Convertido de 16px */
+    padding: 0.125rem 1.5rem; /* Convertido de 2px 24px */
+    
+}
+h1 {
+    font-size: 3.5rem; /* Tamanho da fonte */
+    color: #00FF00; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+    height: 3rem; /* Convertido de 48px */
+    padding: 0.125rem 1.5rem; /* Convertido de 2px 24px */
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 30rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #00FF00; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #00FF00; /* Cor de fundo do botão */
+    color: #000000; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 28.75rem; /* Convertido de 46vh, baseado em uma altura de viewport de 50rem para simplicidade */
+    overflow-y: scroll; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Convertido de 9px */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: #000000; /* Cor de fundo dos itens */
+    border-radius: 0.3rem; /* Convertido de 5px */
+    padding: 2%; /* Espaçamento interno em porcentagem (não precisa de conversão) */
+    margin-bottom: 2rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 0.5rem 0.5rem #00FF00; /* Convertido de 24px */
+    gap: 0.75rem; /* Convertido de 12px */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #00FF00; /* Cor do texto */
+    padding: 1.5rem; /* Convertido de 24px */
+    gap: 0.75rem; /* Convertido de 12px */
+    display: flex;
+    box-orient: vertical; /* Nota: box-orient e box-direction são propriedades não padronizadas e podem não funcionar conforme o esperado */
+    box-direction: normal; /* Nota: box-orient e box-direction são propriedades não padronizadas e podem não funcionar conforme o esperado */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #00FF00; /* Cor do texto dos links */
+    padding: 1.5rem; /* Convertido de 24px */
+    gap: 0.75rem; /* Convertido de 12px */
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    padding: 1.5rem; /* Convertido de 24px */
+    gap: 0.75rem; /* Convertido de 12px */
+    display: flex;
+    box-orient: vertical; /* Nota: box-orient e box-direction são propriedades não padronizadas e podem não funcionar conforme o esperado */
+    box-direction: normal; /* Nota: box-orient e box-direction são propriedades não padronizadas e podem não funcionar conforme o esperado */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #00FF00; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
+    padding: 1.5rem; /* Convertido de 24px */
+    gap: 0.75rem; /* Convertido de 12px */
+    display: flex;
+    box-orient: vertical; /* Nota: box-orient e box-direction são propriedades não padronizadas e podem não funcionar conforme o esperado */
+    box-direction: normal; /* Nota: box-orient e box-direction são propriedades não padronizadas e podem não funcionar conforme o esperado */
+    font-size: 1rem; /* Tamanho da fonte */
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #000000; /* Cor de fundo do rodapé */
+    color: #00FF00; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 1rem; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    font-size: 1rem; /* Tamanho da fonte */
+    border-top: 0.0625rem solid #00FF00; /* Linha superior para demarcar o rodapé */
+}
