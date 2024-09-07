@@ -1,140 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
 
 /* Estiliza o corpo da página */
 body {
-    font-family: "Handjet", sans-serif; /* Define a fonte padrão */
-    background-color: #000000; /* Cor de fundo da página */
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Alinha os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    justify-content: space-between; /* Espaça o conteúdo e o rodapé */
-    min-height: 100vh; /* Garante que o corpo ocupe pelo menos a altura total da viewport */
-    margin: 0;
-    padding: 0;
-    gap: 0.80rem;
+    font-family: "Handjet", sans-serif; /* Define a fonte padrão do corpo como Handjet, com uma fonte alternativa genérica sans-serif caso a primeira não esteja disponível */
+    background-color: #000000; /* Define a cor de fundo da página como preto */
+    display: flex; /* Usa Flexbox para layout do corpo da página */
+    flex-direction: column; /* Organiza os itens em uma coluna, alinhando-os verticalmente */
+    align-items: center; /* Alinha os itens horizontalmente ao centro do corpo */
+    justify-content: space-between; /* Distribui o espaço entre o conteúdo e o rodapé, empurrando-os para as extremidades superior e inferior */
+    min-height: 100vh; /* Garante que o corpo ocupe pelo menos a altura total da viewport (área visível da página) */
+    margin: 2.0rem; /* Define uma margem externa de 2 rem ao redor do corpo */
+    padding: 0; /* Remove qualquer padding interno padrão do corpo */
+    gap: 1.80rem; /* Define o espaço entre os elementos filhos como 1.80 rem */
 }
 
 /* Estiliza os títulos h1 */
+
 div {
-    border: 0.0625rem solid #00FF00; /* Convertido de 1px */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1rem; /* Convertido de 16px */
-    padding: 0.125rem 1.5rem; /* Convertido de 2px 24px */
-    
+    border: 0.0625rem solid #FFFF00; /* Adiciona uma borda sólida verde claro ao redor do div com largura de 0.0625 rem */
+    box-shadow: 0 .5rem 2.5rem #FFFF00; /* Adiciona uma sombra verde claro ao redor do div com deslocamento e desfoque */
+    display: flex; /* Usa Flexbox para layout do div */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente dentro do div */
+    align-items: center; /* Centraliza o conteúdo verticalmente dentro do div */
+    border-radius: 1rem; /* Arredonda os cantos do div com um raio de 1 rem */
+    padding: 0.225rem 1.5rem; /* Adiciona padding interno de 0.225 rem em cima e embaixo e 1.5 rem nas laterais */
+    height: 6rem; /* Define a altura do div como 6 rem */
+    gap: 0.80rem; /* Define o espaço entre os itens filhos como 0.80 rem */
 }
+
 h1 {
-    font-size: 3.5rem; /* Tamanho da fonte */
-    color: #00FF00; /* Cor do texto */
-    text-align: center; /* Alinha o texto ao centro */
-    letter-spacing: 0.4rem; /* Espaçamento entre letras */
-    
+    font-size: 3.5rem; /* Define o tamanho da fonte dos títulos h1 como 3.5 rem */
+    color: #FFFF00; /* Define a cor do texto dos títulos h1 como verde claro */
+    text-align: center; /* Centraliza o texto dentro do título h1 */
+    letter-spacing: 0.4rem; /* Define o espaçamento entre letras como 0.4 rem */
 }
+
+
 
 /* Estiliza as seções da página */
 section {
-    display: flex; /* Usa Flexbox para layout */
-    flex-direction: column; /* Alinha os itens na vertical */
-    align-items: center; /* Centraliza os itens horizontalmente */
-    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
-    height: 3rem; /* Convertido de 48px */
-    padding: 0.125rem 1.5rem; /* Convertido de 2px 24px */
+    display: flex; /* Usa Flexbox para layout das seções */
+    flex-direction: column; /* Organiza os itens dentro da seção em uma coluna */
+    align-items: center; /* Centraliza os itens horizontalmente dentro da seção */
+    margin-bottom: 3rem; /* Define o espaço abaixo de cada seção como 3 rem */
+    height: 3rem; /* Define a altura da seção como 3 rem */
+    padding: 0.125rem 1.5rem; /* Adiciona padding interno de 0.125 rem em cima e embaixo e 1.5 rem nas laterais */
 }
+
 
 /* Estiliza os inputs dentro das seções */
 section input {
+    background-color: #000000;
     width: 30rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #00FF00; /* Cor do texto */
+    color: #FFFF00; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
-    box-sizing: border-box; /* Inclui padding e border na largura total */
+    box-shadow: 0 .5rem 2.5rem #FFFF00;
+    
 }
 
 /* Estiliza os botões dentro das seções */
 section button {
-    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
-    border: none; /* Remove a borda padrão */
-    border-radius: 1.5rem; /* Borda arredondada */
-    background-color: #00FF00; /* Cor de fundo do botão */
-    color: #000000; /* Cor do texto do botão */
-    font-size: 1rem; /* Tamanho da fonte */
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    padding: 0.8rem 1.2rem; /* Adiciona padding interno do botão de 0.8 rem em cima e embaixo e 1.2 rem nas laterais */
+    border: none; /* Remove a borda padrão dos botões */
+    border-radius: 1.5rem; /* Arredonda os cantos dos botões com um raio de 1.5 rem */
+    background-color: #FFFF00; /* Define a cor de fundo dos botões como verde claro */
+    color: #000000; /* Define a cor do texto dos botões como preto */
+    font-size: 1rem; /* Define o tamanho da fonte dos botões como 1 rem */
+    cursor: pointer; /* Muda o cursor para uma mãozinha quando passa sobre o botão, indicando que ele é clicável */
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 60rem; /* Largura máxima da caixa de resultados */
-    height: 28.75rem; /* Convertido de 46vh, baseado em uma altura de viewport de 50rem para simplicidade */
-    overflow-y: scroll; /* Adiciona rolagem vertical se necessário */
-    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
-    padding: 1rem; /* Espaçamento interno */
-    border-radius: 0.6rem; /* Convertido de 9px */
+    width: 60rem; /* Define a largura máxima da caixa de resultados como 60 rem */
+    height: 28.75rem; /* Define a altura da caixa de resultados como 28.75 rem */
+    overflow-y: none; /* Desativa a rolagem vertical (não recomendado pois pode esconder conteúdo) */
+    margin-top: 1rem; /* Define o espaço acima da caixa de resultados como 1 rem */
+    padding: 1rem; /* Adiciona padding interno de 1 rem */
+    border-radius: 0.6rem; /* Arredonda os cantos da caixa de resultados com um raio de 0.6 rem */
 }
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #000000; /* Cor de fundo dos itens */
-    border-radius: 0.3rem; /* Convertido de 5px */
-    padding: 2%; /* Espaçamento interno em porcentagem (não precisa de conversão) */
-    margin-bottom: 2rem; /* Espaçamento abaixo dos itens */
-    box-shadow: 0 0.5rem 0.5rem #00FF00; /* Convertido de 24px */
-    gap: 0.75rem; /* Convertido de 12px */
+    background: #000000; /* Define a cor de fundo dos itens de resultado como preto */
+    border-radius: 0.3rem; /* Arredonda os cantos dos itens de resultado com um raio de 0.3 rem */
+    padding: 2%; /* Adiciona padding interno de 2% da largura do elemento */
+    margin-bottom: 2rem; /* Define o espaço abaixo de cada item de resultado como 2 rem */
+    box-shadow: 0 0.5rem 0.5rem #FFFF00; /* Adiciona uma sombra verde claro ao redor dos itens de resultado */
+    gap: 0.75rem; /* Define o espaço entre os itens filhos como 0.75 rem */
 }
+
 
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
-    font-size: 1.5rem; /* Tamanho da fonte */
-    color: #00FF00; /* Cor do texto */
-    padding: 1.5rem; /* Convertido de 24px */
-    gap: 0.75rem; /* Convertido de 12px */
-    display: flex;
-    box-orient: vertical; /* Nota: box-orient e box-direction são propriedades não padronizadas e podem não funcionar conforme o esperado */
-    box-direction: normal; /* Nota: box-orient e box-direction são propriedades não padronizadas e podem não funcionar conforme o esperado */
+    font-size: 1.5rem; /* Define o tamanho da fonte dos títulos dentro dos itens de resultado como 1.5 rem */
+    color: #FFFF00; /* Define a cor do texto dos títulos como verde claro */
+    padding: 1.5rem; /* Adiciona padding interno de 1.5 rem ao redor dos títulos */
+    gap: 0.75rem; /* Define o espaço entre os itens filhos como 0.75 rem */
+    display: flex; /* Usa Flexbox para layout dos títulos */
+    box-orient: vertical; /* Nota: box-orient é uma propriedade não padronizada e pode não funcionar conforme o esperado */
+    box-direction: normal; /* Nota: box-direction é uma propriedade não padronizada e pode não funcionar conforme o esperado */
 }
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #00FF00; /* Cor do texto dos links */
-    padding: 1.5rem; /* Convertido de 24px */
-    gap: 0.75rem; /* Convertido de 12px */
+    color: #FFFF00; /* Define a cor do texto dos links como verde claro */
+    padding: 1.5rem; /* Adiciona padding interno de 1.5 rem ao redor dos links */
+    gap: 0.75rem; /* Define o espaço entre os itens filhos como 0.75 rem */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
-    padding: 1.5rem; /* Convertido de 24px */
-    gap: 0.75rem; /* Convertido de 12px */
-    display: flex;
-    box-orient: vertical; /* Nota: box-orient e box-direction são propriedades não padronizadas e podem não funcionar conforme o esperado */
-    box-direction: normal; /* Nota: box-orient e box-direction são propriedades não padronizadas e podem não funcionar conforme o esperado */
+    text-decoration: underline; /* Adiciona sublinhado aos links quando o mouse passa sobre eles */
+    padding: 1.5rem; /* Adiciona padding interno de 1.5 rem ao redor dos links */
+    gap: 0.75rem; /* Define o espaço entre os itens filhos como 0.75 rem */
+    display: flex; /* Usa Flexbox para layout dos links */
+    box-orient: vertical; /* Nota: box-orient é uma propriedade não padronizada e pode não funcionar conforme o esperado */
+    box-direction: normal; /* Nota: box-direction é uma propriedade não padronizada e pode não funcionar conforme o esperado */
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #00FF00; /* Cor do texto */
-    margin: 0.5rem 0; /* Margem acima e abaixo */
-    padding: 1.5rem; /* Convertido de 24px */
+    color: #FFFF00; /* Cor do texto */
     gap: 0.75rem; /* Convertido de 12px */
     display: flex;
     box-orient: vertical; /* Nota: box-orient e box-direction são propriedades não padronizadas e podem não funcionar conforme o esperado */
     box-direction: normal; /* Nota: box-orient e box-direction são propriedades não padronizadas e podem não funcionar conforme o esperado */
-    font-size: 1rem; /* Tamanho da fonte */
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 150%;
+    
 }
 
 /* Estiliza o rodapé da página */
 footer {
     background-color: #000000; /* Cor de fundo do rodapé */
-    color: #00FF00; /* Cor do texto */
+    color: #FFFF00; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 1rem; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
     font-size: 1rem; /* Tamanho da fonte */
-    border-top: 0.0625rem solid #00FF00; /* Linha superior para demarcar o rodapé */
+    border-top: 0.0625rem solid #FFFF00; /* Linha superior para demarcar o rodapé */
 }
