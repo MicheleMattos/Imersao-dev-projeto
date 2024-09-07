@@ -31,4 +31,6 @@ Fonte: Chakra Petch
 Cor de Fundo: #DDDDDD
 Layout: Centralizado com Flexbox
 Estilo dos Inputs: Arredondados com espaçamento adequado
-O projeto pode ser adaptado e aprimorado para o seu currículo. Comentários no código facilitam a personalização conforme suas necessidades. Utilize a extensão Live Server no Visual Studio Code para visualizar o projeto em tempo real.
+
+O projeto pode ser adaptado e aprimorado para o seu currículo. Comentários no código facilitam a personalização conforme suas necessidades. 
+Utilize a extensão Live Server no Visual Studio Code para visualizar o projeto em tempo real.
