@@ -1,29 +1,34 @@
-# Imersao-dev-projeto
-Portifólio  com HTML,CSS,JS com base  do Curso: Imersão Dev com Google Gemini pela Alura
-## Estrutura do Projeto
+Imersão Dev Projeto
+Descrição: Portfólio desenvolvido com HTML, CSS e JavaScript, baseado no curso "Imersão Dev com Google Gemini" da Alura.
 
-O portfólio é composto pelas seguintes seções:1. **Formação/Cursos**
-   - **Descrição:** Detalhes sobre a formação acadêmica, especializações e cursos complementares. Inclui projetos acadêmicos relevantes.
-   - **Link:** [Perfil no LinkedIn](https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F)
-   - **Tags:** Formação, Cursos, Educação
+Estrutura do Projeto:
 
-2. **Experiência/Projetos**
-   - **Descrição:** Experiência profissional, responsabilidades e conquistas em diferentes cargos. Inclui links para projetos relevantes.
-   - **Link:** [Perfil no GitHub](https://github.com/)
-   - **Tags:** Experiência, Projetos, Conquistas
+Formação/Cursos
 
-3. **Sobre Mim**
-   - **Descrição:** Informações sobre a profissão, anos de experiência, objetivos de carreira e habilidades principais.
-   - **Link:** [Perfil no LinkedIn](https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F)
-   - **Tags:** Sobre Mim, Carreira, Habilidades## Tecnologias Utilizadas
+Descrição: Informações sobre formação acadêmica, especializações, cursos complementares e projetos acadêmicos relevantes.
+Link: Perfil no LinkedIn
+Tags: Formação, Cursos, Educação
+Experiência/Projetos
 
-- **HTML:** Estrutura do conteúdo
-- **CSS:** Estilo e layout da página
-- **JavaScript:** Funcionalidade interativa## Layout e Estilização
+Descrição: Detalhes sobre experiência profissional, responsabilidades, conquistas e links para projetos relevantes.
+Link: Perfil no GitHub
+Tags: Experiência, Projetos, Conquistas
+Sobre Mim
 
-A página utiliza a fonte "Chakra Petch" do Google Fonts e é estilizada para oferecer uma experiência de usuário limpa e moderna. As principais características incluem:
+Descrição: Informações sobre profissão, anos de experiência, objetivos de carreira e habilidades principais.
+Link: Perfil no LinkedIn
+Tags: Sobre Mim, Carreira, Habilidades
+Tecnologias Utilizadas:
 
-- **Fonte:** Chakra Petch
-- **Cor de Fundo:** #DDDDDD
-- **Layout:** Centralizado com Flexbox
-- **Estilo dos Inputs:** Arredondados e com espaçamento apropriado
+HTML: Estruturação do conteúdo
+CSS: Estilo e layout da página
+JavaScript: Funcionalidade interativa
+Layout e Estilização:
+
+O portfólio utiliza a fonte Chakra Petch do Google Fonts e é projetado para oferecer uma experiência de usuário moderna e intuitiva. As principais características incluem:
+
+Fonte: Chakra Petch
+Cor de Fundo: #DDDDDD
+Layout: Centralizado com Flexbox
+Estilo dos Inputs: Arredondados com espaçamento adequado
+O projeto pode ser adaptado e aprimorado para o seu currículo. Comentários no código facilitam a personalização conforme suas necessidades. Utilize a extensão Live Server no Visual Studio Code para visualizar o projeto em tempo real.
