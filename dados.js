@@ -1,20 +1,39 @@
 let dados = [
     {
-        titulo: "Formação/Cursos",
-        descricao: "Graduado em [Seu Curso] pela [Instituição], com especialização em [Área de Especialização] e diversos cursos complementares em [Áreas de Estudo Relevantes]. Realizei projetos acadêmicos como [Descreva Projetos Acadêmicos Relevantes], que demonstraram minhas habilidades em [Habilidades Desenvolvidas].",
-        link: "https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F",
+        titulo: "Sobre mim",
+        descricao: "Sou uma profissional em transição de carreira para a área de tecnologia, trazendo uma sólida base em funções administrativas, gestão operacional e atendimento ao cliente.Tenho me dedicado intensamente ao aperfeiçoamento em linguagens como HTML, CSS e JavaScript, além de aplicar metodologias ágeis no desenvolvimento de projetos. Minha abordagem é centrada em responsividade e otimização para diferentes dispositivos, com ênfase no conceito de mobile-first e na acessibilidade.Estou comprometida em continuar expandindo meu conhecimento e habilidades para oferecer soluções front-end eficientes que tragam valor real para as empresas.",
+        link: "https://www.linkedin.com/in/michele-m-233649134/",
+        tags: "Sobre Mim, Carreira, Habilidades"
+    },
+    {
+        titulo: "Formação",
+        descricao: "Desenvolvedor de sistemas de tecnologia da informação (técnico) pela Senai,  diversos cursos complementares em Tecnologia, me dedico intensamente ao aperfeiçoamento em linguagens como HTML, CSS e JavaScript.",
+        link: "https://www.linkedin.com/in/michele-m-233649134/details/education/",
         tags: "Formação, Cursos, Educação"
     },
     {
-        titulo: "Experiência/Projetos",
-        descricao: "Trabalhei em [Empresa] como [Cargo] de [Mês/Ano] a [Mês/Ano], onde fui responsável por [Principais Responsabilidades]. Durante esse período, conquistei [Principais Conquistas e Resultados]. Participei de projetos como [Nome dos Projetos Relevantes], disponíveis em [Links para Trabalhos, se aplicável].",
-        link: "https://github.com/",
+        titulo: "Experiência",
+        descricao: "Trabalhei em Oi  como Aprendiz-Integração e Microsserviços de 09/2023 a 09/2024,Programa Aprendiz Tech Oi- Full StackCurso SENAI/SP: Desenvolvimento de sistemas de tecnologia da informação.Pratica na empresa 7 meses: Setor Integração e MicrosserviçosAdquiro experiência prática em front-end (HTML, SCSS, JS) e desenvolvimento de seções em grandes projetos,  participo ativamente de equipes, aplicando metodologias ágeis e utilizando ferramentas de analytics.",
+        link: "https://www.linkedin.com/in/michele-m-233649134/details/experience/",
         tags: "Experiência, Projetos, Conquistas"
     },
     {
-        titulo: "Sobre mim",
-        descricao: "Sou um(a) [Sua Profissão] com [X] anos de experiência em [Sua Área de Especialização]. Meu objetivo é [Seu Objetivo de Carreira] e sou movido(a) por [O que Te Motiva]. Minhas principais habilidades incluem [Principais Habilidades Técnicas e Soft Skills]. Tenho interesse em [Seus Interesses Pessoais].",
-        link: "https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F",
-        tags: "Sobre Mim, Carreira, Habilidades"
+        titulo: "Projetos",
+        descricao: "Participei de projetos como paginas https://www.oi.com.br/internet e https://www.oi.com.br/empresas.",
+        link: "https://www.linkedin.com/in/michele-m-233649134/details/projects/",
+        tags: "Projetos"
+    },
+    {
+        titulo: "Cursos",
+        descricao: "Imersão Dev com Google Gemini pela Alura, Inicio 09/2014 a 09/2024, curso desenvolver para aprender HTML, CSS e JavaScript e desenvolver o seu primeiro projeto do zero com a ajuda do Gemini, a Inteligência Artificial do Google..",
+        link: "https://www.linkedin.com/in/michele-m-233649134/details/education/",
+        tags:"Cursos, Educação"
+
+    },
+    {
+        titulo: "Certificados",
+        descricao: "Imersão Dev com Google Gemini pela Alura, Inicio 09/2014 a 09/2024, curso desenvolver para aprender HTML, CSS e JavaScript e desenvolver o seu primeiro projeto do zero com a ajuda do Gemini, a Inteligência Artificial do Google..",
+        link: "https://www.linkedin.com/in/michele-m-233649134/details/education/",
+        tags:"Certificados, Educação"
     }
 ];

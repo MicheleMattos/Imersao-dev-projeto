@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
 
 /* Estiliza o corpo da página */
 body {
-    font-family: "Handjet", sans-serif; /* Define a fonte padrão do corpo como Handjet, com uma fonte alternativa genérica sans-serif caso a primeira não esteja disponível */
+    font-family: "M+PLUS+Rounded", sans-serif; /* Define a fonte padrão do corpo como M+PLUS+Rounded, com uma fonte alternativa genérica sans-serif caso a primeira não esteja disponível */
     background-color: #000000; /* Define a cor de fundo da página como preto */
     display: flex; /* Usa Flexbox para layout do corpo da página */
     flex-direction: column; /* Organiza os itens em uma coluna, alinhando-os verticalmente */
@@ -12,11 +11,10 @@ body {
     min-height: 100vh; /* Garante que o corpo ocupe pelo menos a altura total da viewport (área visível da página) */
     margin: 2.0rem; /* Define uma margem externa de 2 rem ao redor do corpo */
     padding: 0; /* Remove qualquer padding interno padrão do corpo */
-    gap: 1.80rem; /* Define o espaço entre os elementos filhos como 1.80 rem */
+    gap: 2.00rem; /* Define o espaço entre os elementos filhos como 2 rem */
 }
 
-/* Estiliza os títulos h1 */
-
+/* Estiliza o div que contém o nome do usuário */
 div {
     border: 0.0625rem solid #FFFF00; /* Adiciona uma borda sólida verde claro ao redor do div com largura de 0.0625 rem */
     box-shadow: 0 .5rem 2.5rem #FFFF00; /* Adiciona uma sombra verde claro ao redor do div com deslocamento e desfoque */
@@ -29,6 +27,7 @@ div {
     gap: 0.80rem; /* Define o espaço entre os itens filhos como 0.80 rem */
 }
 
+/* Estiliza os títulos h1 */
 h1 {
     font-size: 3.5rem; /* Define o tamanho da fonte dos títulos h1 como 3.5 rem */
     color: #FFFF00; /* Define a cor do texto dos títulos h1 como verde claro */
@@ -36,31 +35,26 @@ h1 {
     letter-spacing: 0.4rem; /* Define o espaçamento entre letras como 0.4 rem */
 }
 
-
-
 /* Estiliza as seções da página */
 section {
     display: flex; /* Usa Flexbox para layout das seções */
     flex-direction: column; /* Organiza os itens dentro da seção em uma coluna */
     align-items: center; /* Centraliza os itens horizontalmente dentro da seção */
     margin-bottom: 3rem; /* Define o espaço abaixo de cada seção como 3 rem */
-    height: 3rem; /* Define a altura da seção como 3 rem */
     padding: 0.125rem 1.5rem; /* Adiciona padding interno de 0.125 rem em cima e embaixo e 1.5 rem nas laterais */
 }
 
-
 /* Estiliza os inputs dentro das seções */
 section input {
-    background-color: #000000;
-    width: 30rem; /* Largura dos inputs */
-    border: none; /* Remove a borda padrão */
-    padding: 1rem; /* Espaçamento interno */
-    border-radius: 1.5rem; /* Borda arredondada */
-    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #FFFF00; /* Cor do texto */
-    font-size: 1rem; /* Tamanho da fonte */
-    box-shadow: 0 .5rem 2.5rem #FFFF00;
-    
+    background-color: #000000; /* Define a cor de fundo dos inputs como preto */
+    width: 30rem; /* Define a largura dos inputs como 30 rem */
+    border: none; /* Remove a borda padrão dos inputs */
+    padding: 1rem; /* Adiciona espaçamento interno de 1 rem */
+    border-radius: 1.5rem; /* Arredonda os cantos dos inputs com um raio de 1.5 rem */
+    margin-bottom: 1rem; /* Define o espaço abaixo dos inputs como 1 rem */
+    color: #FFFF00; /* Define a cor do texto dentro dos inputs como verde claro */
+    font-size: 1rem; /* Define o tamanho da fonte dentro dos inputs como 1 rem */
+    box-shadow: 0 .5rem 2.5rem #FFFF00; /* Adiciona uma sombra verde claro ao redor dos inputs */
 }
 
 /* Estiliza os botões dentro das seções */
@@ -76,12 +70,14 @@ section button {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 60rem; /* Define a largura máxima da caixa de resultados como 60 rem */
-    height: 28.75rem; /* Define a altura da caixa de resultados como 28.75 rem */
-    overflow-y: none; /* Desativa a rolagem vertical (não recomendado pois pode esconder conteúdo) */
+    width: 60rem; /* Define a largura da caixa de resultados como 60 rem */
+    max-height: 28.75rem; /* Define a altura máxima da caixa de resultados como 28.75 rem */
+    overflow-y: auto; /* Adiciona rolagem vertical quando necessário */
     margin-top: 1rem; /* Define o espaço acima da caixa de resultados como 1 rem */
     padding: 1rem; /* Adiciona padding interno de 1 rem */
     border-radius: 0.6rem; /* Arredonda os cantos da caixa de resultados com um raio de 0.6 rem */
+    background-color: #000000; /* Define a cor de fundo da caixa de resultados como preto */
+    color: #FFFF00; /* Define a cor do texto dentro da caixa de resultados como verde claro */
 }
 
 /* Estiliza cada item de resultado */
@@ -93,7 +89,6 @@ section button {
     box-shadow: 0 0.5rem 0.5rem #FFFF00; /* Adiciona uma sombra verde claro ao redor dos itens de resultado */
     gap: 0.75rem; /* Define o espaço entre os itens filhos como 0.75 rem */
 }
-
 
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
@@ -115,27 +110,21 @@ section button {
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
-.item-resultado a:hover {
-    text-decoration: underline; /* Adiciona sublinhado aos links quando o mouse passa sobre eles */
+.item-resultado a {
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #FFFF00; /* Define a cor do texto dos links como verde claro */
     padding: 1.5rem; /* Adiciona padding interno de 1.5 rem ao redor dos links */
     gap: 0.75rem; /* Define o espaço entre os itens filhos como 0.75 rem */
-    display: flex; /* Usa Flexbox para layout dos links */
-    box-orient: vertical; /* Nota: box-orient é uma propriedade não padronizada e pode não funcionar conforme o esperado */
-    box-direction: normal; /* Nota: box-direction é uma propriedade não padronizada e pode não funcionar conforme o esperado */
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #FFFF00; /* Cor do texto */
-    gap: 0.75rem; /* Convertido de 12px */
-    display: flex;
-    box-orient: vertical; /* Nota: box-orient e box-direction são propriedades não padronizadas e podem não funcionar conforme o esperado */
-    box-direction: normal; /* Nota: box-orient e box-direction são propriedades não padronizadas e podem não funcionar conforme o esperado */
-    font-size: 1rem;
-    font-weight: 400;
-    
+    color: #FFFF00; /* Define a cor do texto da descrição meta como verde claro */
+    gap: 0.75rem; /* Define o espaço entre os itens filhos como 0.75 rem */
+    display: flex; /* Usa Flexbox para layout da descrição meta */
+    box-orient: vertical; /* Nota: box-orient é uma propriedade não padronizada e pode não funcionar conforme o esperado */
+    box-direction: normal
 }
-
 /* Estiliza o rodapé da página */
 footer {
     background-color: #000000; /* Cor de fundo do rodapé */
@@ -145,4 +134,7 @@ footer {
     width: 100%; /* Largura total da página */
     font-size: 1rem; /* Tamanho da fonte */
     border-top: 0.0625rem solid #FFFF00; /* Linha superior para demarcar o rodapé */
+    display: flex; /* Corrigido: Adicionado ponto e vírgula */
+    align-items: center; /* Alinha itens ao centro verticalmente */
+    justify-content: center;
 }
