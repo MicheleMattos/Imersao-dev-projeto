@@ -1,36 +1,16 @@
-Imersão Dev Projeto
-Descrição: Portfólio desenvolvido com HTML, CSS e JavaScript, baseado no curso "Imersão Dev com Google Gemini" da Alura.
+Descrição: Este projeto é um portfólio simples, criado com HTML, CSS e JavaScript, com base no curso "Imersão Dev com Google Gemini" da Alura. O objetivo é fornecer um modelo básico que pode ser facilmente adaptado para qualquer currículo pessoal.
 
-Estrutura do Projeto:
+Estrutura do Portfólio:
+Sobre Mim: Seção para descrever suas informações pessoais, objetivos e habilidades.
+Formação/Cursos: Área para detalhar sua formação acadêmica, especializações e cursos realizados.
+Experiência/Projetos: Seção para listar suas experiências profissionais e projetos relevantes.
 
-Formação/Cursos
+Funcionalidades:
+HTML: Estrutura o conteúdo do portfólio.
+CSS: Define o estilo e o layout da página, proporcionando uma aparência visual atraente.
+JavaScript: Adiciona funcionalidades interativas, como a pesquisa por palavras-chave.
 
-Descrição: Informações sobre formação acadêmica, especializações, cursos complementares e projetos acadêmicos relevantes.
-Link: Perfil no LinkedIn
-Tags: Formação, Cursos, Educação
-Experiência/Projetos
-
-Descrição: Detalhes sobre experiência profissional, responsabilidades, conquistas e links para projetos relevantes.
-Link: Perfil no GitHub
-Tags: Experiência, Projetos, Conquistas
-Sobre Mim
-
-Descrição: Informações sobre profissão, anos de experiência, objetivos de carreira e habilidades principais.
-Link: Perfil no LinkedIn
-Tags: Sobre Mim, Carreira, Habilidades
-Tecnologias Utilizadas:
-
-HTML: Estruturação do conteúdo
-CSS: Estilo e layout da página
-JavaScript: Funcionalidade interativa
-Layout e Estilização:
-
-O portfólio utiliza a fonte Chakra Petch do Google Fonts e é projetado para oferecer uma experiência de usuário moderna e intuitiva. As principais características incluem:
-
-Fonte: Chakra Petch
-Cor de Fundo: #DDDDDD
-Layout: Centralizado com Flexbox
-Estilo dos Inputs: Arredondados com espaçamento adequado
-
-O projeto pode ser adaptado e aprimorado para o seu currículo. Comentários no código facilitam a personalização conforme suas necessidades. 
-Utilize a extensão Live Server no Visual Studio Code para visualizar o projeto em tempo real.
+Personalização:
+O projeto inclui exemplos de preenchimento para facilitar a adaptação.
+Comentários no código ajudam a personalizar e ajustar o portfólio conforme suas necessidades específicas.
+Dica: Para visualizar e testar o projeto em tempo real, use a extensão Live Server no Visual Studio Code.
