@@ -12,13 +12,13 @@ body {
     margin: 2.0rem;
     padding: 0;
     gap: 2.00rem;
-
 }
 
 max-width{
     max-width: 75rem;
     margin: 0 auto;
-    padding: 0 1rem;;
+    padding: 1rem 1rem;
+    gap: 1.00rem;
 }
 div {
     border: 0.0625rem solid #8d0c0c;
@@ -90,6 +90,7 @@ section button {
     border-radius: 0.6rem;
     background-color: #ffffff;
     color: #000000;
+    gap: 1.80rem
 }
 
 .item-resultado {
