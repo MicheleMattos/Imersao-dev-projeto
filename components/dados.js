@@ -1,7 +1,7 @@
 let dados = [
     {
         titulo: "Sobre mim",
-        descricao: "Sou uma profissional em transição de carreira para a área de tecnologia, trazendo uma sólida base em funções administrativas, gestão operacional e atendimento ao cliente.Tenho me dedicado intensamente ao aperfeiçoamento em linguagens como HTML, CSS e JavaScript, além de aplicar metodologias ágeis no desenvolvimento de projetos. Minha abordagem é centrada em responsividade e otimização para diferentes dispositivos, com ênfase no conceito de mobile-first e na acessibilidade.Estou comprometida em continuar expandindo meu conhecimento e habilidades para oferecer soluções front-end eficientes que tragam valor real para as empresas.",
+        descricao: "Olá! Tenho experiência em funções administrativas, gestão operacional e atendimento ao cliente, com forte capacidade em atividades de back office, apoio a equipes, organização de documentação e controle de processos. Sou formado em Técnico em Desenvolvimento de Sistemas e busco atuar como desenvolvedora front-end, focando na criação de interfaces intuitivas. Recentemente, concluí um curso em User Experience (UX Design) para aprimorar a experiência do usuário em meus projetos. Estou constantemente me aperfeiçoando nas linguagens HTML, CSS e JavaScript, aplicando metodologias ágeis em meus estudos.Estou em busca de novas oportunidades em empresas que ofereçam planos de carreira desafiadores, que me permitam desenvolver minhas habilidades e contribuir para o crescimento da organização.",
         link: "https://www.linkedin.com/in/michele-m-233649134/",
         tags: "Sobre Mim, Carreira, Habilidades"
     },
@@ -15,7 +15,7 @@ let dados = [
         titulo: "Experiência",
         descricao: "Trabalhei em Oi  como Aprendiz-Integração e Microsserviços de 09/2023 a 09/2024,Programa Aprendiz Tech Oi- Full StackCurso SENAI/SP: Desenvolvimento de sistemas de tecnologia da informação.Pratica na empresa 7 meses: Setor Integração e MicrosserviçosAdquiro experiência prática em front-end (HTML, SCSS, JS) e desenvolvimento de seções em grandes projetos,  participo ativamente de equipes, aplicando metodologias ágeis e utilizando ferramentas de analytics.",
         link: "https://www.linkedin.com/in/michele-m-233649134/details/experience/",
-        tags: "Experiência, Projetos, Conquistas"
+        tags: "Experiência"
     },
     {
         titulo: "Projetos",
