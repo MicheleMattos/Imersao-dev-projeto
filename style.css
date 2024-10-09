@@ -15,6 +15,10 @@ body {
 
 }
 
+max-width{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 div {
     border: 0.0625rem solid #8d0c0c;
     box-shadow: 0 .5rem 2.5rem #8d0c0c;
@@ -75,11 +79,7 @@ section button {
     cursor: pointer;
 }
 
-.container {
-    max-width: 1200px; /
-    margin: 0 auto; 
-    padding: 0 20px; 
-}
+
 .resultados-pesquisa {
     width: 60rem;
     max-height: 28.75rem;
